@@ -1,6 +1,7 @@
 <?php 
   if(!isset($_SESSION)) session_start();
-  require_once('src/layout/header.php') 
+  require_once('src/layout/header.php');
+  include('src/layout/server.php')
 ?>
 <nav>
   <div class="links">
@@ -9,7 +10,7 @@
   </div>
   <div class="rechts">
   <ul>
-    <li><a href="/login.php">Login</a></li>
+    <li><a href="login.php">Login</a></li>
   </ul>
   </div>
 </nav>
