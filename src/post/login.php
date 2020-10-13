@@ -8,7 +8,8 @@ if(isset($_POST['login'])) {
   if (property_exists($userData, 'password')) {
     if(password::verify($userData->password, $password)) {
       $_SESSION['loggedIn'] = true;
-      $_SESSION['username'] = $email;
+      $_SESSION['email'] = $email;
+      $_SESSION['username'] = $userData->username;
       $_SESSION['userId'] = $userData->id;
       // unset ($_SESSION['loggedIn'];
       // session_destroy ();

@@ -2,6 +2,7 @@
 @import "nav.css";
 @import "login.css";
 @import "register.css";
+@import "dashboard.css";
 
 * {
   padding: 0;
@@ -11,7 +12,7 @@
 }
 
 body {
-  background-color: #e6e5e1;
+  background-color: rgb(229, 228, 224);
 }
 
 .content {
@@ -29,12 +30,22 @@ body {
 }
 
 .container {
-  height: calc(100vh - 77px);
-  display: flex;
-  align-items: center;
+  min-height: calc(100vh - 77px);
   padding: 0px 100px;
   position: relative;
-  z-index: 999;
+  z-index: 100;
+  padding-bottom: 30px;
+}
+
+.container-center {
+  display: flex;
+  align-items: center;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 a {
