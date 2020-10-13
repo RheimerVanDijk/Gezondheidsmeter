@@ -1,7 +1,6 @@
 <?php 
   if(!isset($_SESSION)) session_start();
   require_once('src/layout/header.php');
-  echo $_SESSION["loggedIn"];
 ?>
 <nav>
   <div class="links">

@@ -15,7 +15,7 @@
 </nav>
 <div class="content">
   <img class="background" src="src/images/background_image.jpg" alt="">
-  <div class="container">
+  <div class="container container-center">
     <div class="loginCard">
       <div class="title">
         <p>Login bij de gezondheid meter</p>

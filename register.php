@@ -15,7 +15,7 @@
 </nav>
 <div class="content">
     <img class="background" src="src/images/background_image.jpg" alt="">
-    <div class="container">
+    <div class="container container-center">
         <div class="registerCard">
         <div class="title">
             <p>Registreren bij de gezondheid meter</p>

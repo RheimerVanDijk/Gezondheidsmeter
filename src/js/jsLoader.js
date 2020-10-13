@@ -18,6 +18,12 @@ function scriptLoader(path, callback) {
 
 // js files
 scriptLoader("src/js/globalFunctions.js");
+scriptLoader("src/js/charts/averageChart.js");
+scriptLoader("src/js/charts/drugsChart.js");
+scriptLoader("src/js/charts/foodChart.js");
+scriptLoader("src/js/charts/sleepChart.js");
+scriptLoader("src/js/charts/sportChart.js");
+scriptLoader("src/js/charts/workChart.js");
 
 // api files
 scriptLoader("src/api/registerAPI.js");
