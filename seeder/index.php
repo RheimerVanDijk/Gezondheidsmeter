@@ -12,6 +12,6 @@ $stmt = $db->prepare($query);
 
 if ($stmt->execute()){
      echo "Success";
-}else{ 
+} else {
      echo "Fail";
 }
