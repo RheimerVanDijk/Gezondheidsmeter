@@ -4,15 +4,12 @@
 ?>
 
   <nav>
-
     <div class="links">
       <i class="fas fa-apple-alt"></i>
       <p>Gezondheids meter</p>
     </div>
     <div class="rechts">
-    <ul>
-
-    </ul>
+      <ul></ul>
     </div>
   </nav>
   <div class="content">
