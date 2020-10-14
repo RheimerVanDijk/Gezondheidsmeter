@@ -3,7 +3,7 @@
 
 <div>
   <p>5.1 Voeding en alcohol</p>
-  <p>Heeft u vandaag 1 van de volgende types drugs op?</p>
+  <p>Heeft u vandaag 1 of meerdere van de volgende types drugs op?</p>
   <div>
     <input type="radio" id="drugs1" name="drugs" value="3" checked>
     <label for="drugs1">Geen</label><br>

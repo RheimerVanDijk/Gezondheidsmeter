@@ -3,9 +3,9 @@
 
   class DB {
     public function connect() {
-      $dns = 'mysql:host=192.168.0.162;dbname=gezondheidsmeter';
-      $user = 'elian';
-      $pass = 'elian';
+      $dns = 'mysql:host=127.0.0.1;dbname=gezondheidsmeter';
+      $user = 'root';
+      $pass = '';
 
       return new PDO($dns, $user, $pass);
     }

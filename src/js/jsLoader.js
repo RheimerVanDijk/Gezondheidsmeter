@@ -16,6 +16,8 @@ function scriptLoader(path, callback) {
   }
 }
 
+scriptLoader("src/api/getAwnsersAPI.js");
+
 // js files
 scriptLoader("src/js/globalFunctions.js");
 scriptLoader("src/js/charts/averageChart.js");
@@ -33,3 +35,4 @@ scriptLoader("src/js/questionSections/drugs.js");
 // api files
 scriptLoader("src/api/registerAPI.js");
 scriptLoader("src/api/loginAPI.js");
+scriptLoader("src/api/questionsAPI.js");
