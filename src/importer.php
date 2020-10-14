@@ -11,4 +11,5 @@
     require_once('post/register.php'); // requests for register
     require_once('post/login.php'); // requests for login
     require_once('post/sendAwnsers.php'); // requests for awnsers
+    require_once('post/getAwnsers.php'); // requests for get awnsers
 ?>

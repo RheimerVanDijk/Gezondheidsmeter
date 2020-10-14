@@ -7,7 +7,7 @@
   <div>
     <input type="radio" id="ja" name="sport1" value="ja" onchange="walkChange(true)">
     <label for="ja">Ja</label><br>
-    <input type="radio" id="walkRadioNo" name="sport1" value="nee" onchange="walkChange(true)" checked>
+    <input type="radio" id="walkRadioNo" name="sport1" value="nee" onchange="walkChange(false)" checked>
     <label for="nee">Nee</label><br>
   </div>
   <div id="walkMenu" class="hidden">

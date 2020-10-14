@@ -1,42 +1,46 @@
-if (checkElement(".dashbaordPage")) {
-  let ctxSport = document.querySelector("#sportChart").getContext("2d");
+getAwnsers(2, deploySportChart, 2, "sportChart");
 
-  let sportResult = 6;
-  let sportMax = 10 - sportResult;
+function deploySportChart(result) {
+  if (checkElement(".dashbaordPage")) {
+    let ctxSport = document.querySelector("#sportChart").getContext("2d");
 
-  let sportColor = colorPickerChart(sportResult);
+    let sportResult = result;
+    let sportMax = 10 - sportResult;
 
-  let sportDonut = new Chart(ctxSport, {
-    type: "doughnut",
-    data: {
-      labels: ["Temperature in C°", "placeholder"],
-      datasets: [
-        {
-          label: "temperature",
-          data: [sportResult, sportMax],
-          backgroundColor: sportColor,
-          borderColor: sportColor,
-          hoverBackgroundColor: sportColor,
-          hoverBorderColor: sportColor,
+    let sportColor = colorPickerChart(sportResult);
+
+    let sportDonut = new Chart(ctxSport, {
+      type: "doughnut",
+      data: {
+        labels: ["Temperature in C°", "placeholder"],
+        datasets: [
+          {
+            label: "temperature",
+            data: [sportResult, sportMax],
+            backgroundColor: sportColor,
+            borderColor: sportColor,
+            hoverBackgroundColor: sportColor,
+            hoverBorderColor: sportColor,
+          },
+        ],
+      },
+      options: {
+        legend: {
+          display: false,
         },
-      ],
-    },
-    options: {
-      legend: {
-        display: false,
+        tooltips: {
+          enabled: false,
+        },
+        maintainAspectRatio: false,
+        responsive: false,
+        cutoutPercentage: 80,
+        rotation: 1 * Math.PI,
+        circumference: 0.995 * Math.PI,
+        ticks: {
+          beginAtZero: true,
+          max: 10,
+        },
       },
-      tooltips: {
-        enabled: false,
-      },
-      maintainAspectRatio: false,
-      responsive: false,
-      cutoutPercentage: 80,
-      rotation: 1 * Math.PI,
-      circumference: 0.995 * Math.PI,
-      ticks: {
-        beginAtZero: true,
-        max: 10,
-      },
-    },
-  });
+    });
+  }
 }

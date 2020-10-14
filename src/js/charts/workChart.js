@@ -1,42 +1,46 @@
-if (checkElement(".dashbaordPage")) {
-  let ctxWork = document.querySelector("#workChart").getContext("2d");
+getAwnsers(1, deployWorkChart, 4, "workChart");
 
-  let workResult = 6;
-  let workMax = 10 - workResult;
+function deployWorkChart(result) {
+  if (checkElement(".dashbaordPage")) {
+    let ctxWork = document.querySelector("#workChart").getContext("2d");
 
-  let workColor = colorPickerChart(workResult);
+    let workResult = result;
+    let workMax = 10 - workResult;
 
-  let workDonut = new Chart(ctxWork, {
-    type: "doughnut",
-    data: {
-      labels: ["Temperature in C°", "placeholder"],
-      datasets: [
-        {
-          label: "temperature",
-          data: [workResult, workMax],
-          backgroundColor: workColor,
-          borderColor: workColor,
-          hoverBackgroundColor: workColor,
-          hoverBorderColor: workColor,
+    let workColor = colorPickerChart(workResult);
+
+    let workDonut = new Chart(ctxWork, {
+      type: "doughnut",
+      data: {
+        labels: ["Temperature in C°", "placeholder"],
+        datasets: [
+          {
+            label: "temperature",
+            data: [workResult, workMax],
+            backgroundColor: workColor,
+            borderColor: workColor,
+            hoverBackgroundColor: workColor,
+            hoverBorderColor: workColor,
+          },
+        ],
+      },
+      options: {
+        legend: {
+          display: false,
         },
-      ],
-    },
-    options: {
-      legend: {
-        display: false,
+        tooltips: {
+          enabled: false,
+        },
+        maintainAspectRatio: false,
+        responsive: false,
+        cutoutPercentage: 80,
+        rotation: 1 * Math.PI,
+        circumference: 0.995 * Math.PI,
+        ticks: {
+          beginAtZero: true,
+          max: 10,
+        },
       },
-      tooltips: {
-        enabled: false,
-      },
-      maintainAspectRatio: false,
-      responsive: false,
-      cutoutPercentage: 80,
-      rotation: 1 * Math.PI,
-      circumference: 0.995 * Math.PI,
-      ticks: {
-        beginAtZero: true,
-        max: 10,
-      },
-    },
-  });
+    });
+  }
 }
