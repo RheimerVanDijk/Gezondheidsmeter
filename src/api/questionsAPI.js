@@ -10,15 +10,32 @@ async function saveResults() {
   form.append("saveResults", "");
   form.append("awnsersObject", JSON.stringify(awnsersArray));
 
+  awnsersArray = [];
+
   const post = await fetch("src/importer.php", {
     method: "POST",
     body: form,
   })
     .then((response) => {
-      return response.json();
+      window.location.href = "Dashboard.php";
     })
-    .then((data) => {
-      console.log(data);
+
+    .catch((error) => {
+      console.log(error);
+    });
+}
+
+async function saveSleep(awnserObject) {
+  const form = new FormData();
+
+  form.append("saveResults", "");
+  form.append("awnsersObject", JSON.stringify(awnserObject));
+
+  const post = await fetch("src/importer.php", {
+    method: "POST",
+    body: form,
+  })
+    .then((response) => {
       window.location.href = "Dashboard.php";
     })
     .catch((error) => {

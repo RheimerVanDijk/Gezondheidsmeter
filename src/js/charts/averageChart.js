@@ -4,6 +4,8 @@ function deployAverageChart(results) {
   if (checkElement(".dashbaordPage")) {
     ctx = document.querySelector("#averageChart").getContext("2d");
 
+    document.querySelector("#averageChartCenterGrade").innerHTML = results;
+
     let result = results;
     let max = 10 - result;
 

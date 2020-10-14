@@ -11,6 +11,7 @@
     </div>
     <div class="rechts">
       <a href="vragenlijst.php">vragenlijst</a>
+      <a href="slaapmeter.php">slaapmeter</a>
       <a href="logout.php">logout</a>
     </div>
   </nav>
@@ -45,6 +46,7 @@
         </div>
         <div class="chart">
           <canvas id="averageChart" width="200" height="200"></canvas>
+          <div id="averageChartCenterGrade" class="centerGrade"></div>
           <div class="text">
             <p>0</p>
             <p>10</p>
@@ -57,6 +59,7 @@
         </div>
         <div class="chart">
           <canvas id="workChart" width="200" height="200"></canvas>
+          <div id="workChartCenterGrade" class="centerGrade"></div>
           <div class="text">
             <p>0</p>
             <p>10</p>
@@ -69,6 +72,7 @@
         </div>
         <div class="chart">
           <canvas id="sportChart" width="200" height="200"></canvas>
+          <div id="sportChartCenterGrade" class="centerGrade"></div>
           <div class="text">
             <p>0</p>
             <p>10</p>
@@ -81,6 +85,7 @@
         </div>
         <div class="chart">
           <canvas id="foodChart" width="200" height="200"></canvas>
+          <div id="foodChartCenterGrade" class="centerGrade"></div>
           <div class="text">
             <p>0</p>
             <p>10</p>
@@ -93,6 +98,7 @@
         </div>
         <div class="chart">
           <canvas id="alcoholChart" width="200" height="200"></canvas>
+          <div id="alcoholChartCenterGrade" class="centerGrade"></div>
           <div class="text">
             <p>0</p>
             <p>10</p>
@@ -105,6 +111,7 @@
         </div>
         <div class="chart">
           <canvas id="drugsChart" width="200" height="200"></canvas>
+          <div id="drugsChartCenterGrade" class="centerGrade"></div>
           <div class="text">
             <p>0</p>
             <p>10</p>
@@ -117,6 +124,7 @@
         </div>
         <div class="chart">
           <canvas id="sleepChart" width="200" height="200"></canvas>
+          <div id="sleepChartCenterGrade" class="centerGrade"></div>
           <div class="text">
             <p>0</p>
             <p>10</p>

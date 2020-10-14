@@ -4,6 +4,8 @@ function deployWorkChart(result) {
   if (checkElement(".dashbaordPage")) {
     let ctxWork = document.querySelector("#workChart").getContext("2d");
 
+    document.querySelector("#workChartCenterGrade").innerHTML = result;
+
     let workResult = result;
     let workMax = 10 - workResult;
 

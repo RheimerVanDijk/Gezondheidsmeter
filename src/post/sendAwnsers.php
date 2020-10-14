@@ -24,7 +24,6 @@ if (isset($_POST["saveResults"])) {
 
     echo json_encode([
       'type' => 'success',
-      'msg' => 'Je account is succesvol aangemaakt'
     ]);
   }
   catch (PDOxception $e) {

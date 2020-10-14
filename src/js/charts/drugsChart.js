@@ -4,6 +4,8 @@ function deployDrugsChart(result) {
   if (checkElement(".dashbaordPage")) {
     let ctxDrugs = document.querySelector("#drugsChart").getContext("2d");
 
+    document.querySelector("#drugsChartCenterGrade").innerHTML = result;
+
     let drugsResult = result;
     let drugsMax = 10 - drugsResult;
 

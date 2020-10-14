@@ -4,6 +4,7 @@ document.querySelector("#nextFoodOne").addEventListener("click", () => {
 
 document.querySelector("#nextFoodTwo").addEventListener("click", () => {
   const result = calcAlcohol();
+  console.log(result);
   awnserQuestion(8, result[0]);
   awnserQuestion(9, result[1]);
 });
@@ -46,6 +47,7 @@ function calcS5() {
 function calcAlcohol() {
   maxScoreNormal = 6;
   maxScoreAlcohol = 3;
+  alcoholScore = 0;
   const suiker = parseInt(
     document.querySelector('input[name="suiker"]:checked').value
   );
@@ -64,5 +66,15 @@ function calcAlcohol() {
   } else if (score <= 4) finalNormal = 2;
   else if (score <= 6) finalNormal = 3;
 
-  return [finalNormal, maxScoreAlcohol - alcohol];
+  if (maxScoreAlcohol - alcohol == 0) {
+    alcoholScore = 4;
+  } else if (maxScoreAlcohol - alcohol == 1) {
+    alcoholScore = 1;
+  } else if (maxScoreAlcohol - alcohol == 2) {
+    alcoholScore = 2;
+  } else if (maxScoreAlcohol - alcohol == 3) {
+    alcoholScore = 3;
+  }
+
+  return [finalNormal, alcoholScore];
 }

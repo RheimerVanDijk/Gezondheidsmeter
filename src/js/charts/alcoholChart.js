@@ -4,6 +4,8 @@ function deployAlcoholChart(result) {
   if (checkElement(".dashbaordPage")) {
     let ctxAlcohol = document.querySelector("#alcoholChart").getContext("2d");
 
+    document.querySelector("#alcoholChartCenterGrade").innerHTML = result;
+
     let alcoholResult = result;
     let alcoholMax = 10 - alcoholResult;
 

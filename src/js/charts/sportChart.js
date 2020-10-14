@@ -4,6 +4,8 @@ function deploySportChart(result) {
   if (checkElement(".dashbaordPage")) {
     let ctxSport = document.querySelector("#sportChart").getContext("2d");
 
+    document.querySelector("#sportChartCenterGrade").innerHTML = result;
+
     let sportResult = result;
     let sportMax = 10 - sportResult;
 

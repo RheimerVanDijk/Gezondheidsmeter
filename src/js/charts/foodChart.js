@@ -4,6 +4,8 @@ function deployFoodChart(result) {
   if (checkElement(".dashbaordPage")) {
     let ctxFood = document.querySelector("#foodChart").getContext("2d");
 
+    document.querySelector("#foodChartCenterGrade").innerHTML = result;
+
     let foodResult = result;
     let foodMax = 10 - foodResult;
 
