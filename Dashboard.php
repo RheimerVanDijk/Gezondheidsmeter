@@ -77,7 +77,7 @@
       </div>
       <div class="chart-section">
         <div class="title">
-          <p>3. Voeding en alcohol</p>
+          <p>3. Voeding</p>
         </div>
         <div class="chart">
           <canvas id="foodChart" width="200" height="200"></canvas>
@@ -89,7 +89,19 @@
       </div>
       <div class="chart-section">
         <div class="title">
-          <p>4. Drugs</p>
+          <p>4. Alcohol</p>
+        </div>
+        <div class="chart">
+          <canvas id="alcoholChart" width="200" height="200"></canvas>
+          <div class="text">
+            <p>0</p>
+            <p>10</p>
+          </div>
+        </div>
+      </div>
+      <div class="chart-section">
+        <div class="title">
+          <p>5. Drugs</p>
         </div>
         <div class="chart">
           <canvas id="drugsChart" width="200" height="200"></canvas>
@@ -101,7 +113,7 @@
       </div>
       <div class="chart-section">
         <div class="title">
-          <p>5. Slaap</p>
+          <p>6. Slaap</p>
         </div>
         <div class="chart">
           <canvas id="sleepChart" width="200" height="200"></canvas>

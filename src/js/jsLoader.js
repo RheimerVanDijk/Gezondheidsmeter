@@ -21,9 +21,14 @@ scriptLoader("src/js/globalFunctions.js");
 scriptLoader("src/js/charts/averageChart.js");
 scriptLoader("src/js/charts/drugsChart.js");
 scriptLoader("src/js/charts/foodChart.js");
+scriptLoader("src/js/charts/alcoholChart.js");
 scriptLoader("src/js/charts/sleepChart.js");
 scriptLoader("src/js/charts/sportChart.js");
 scriptLoader("src/js/charts/workChart.js");
+scriptLoader("src/js/question.js");
+scriptLoader("src/js/questionSections/sport.js");
+scriptLoader("src/js/questionSections/eten.js");
+scriptLoader("src/js/questionSections/drugs.js");
 
 // api files
 scriptLoader("src/api/registerAPI.js");
