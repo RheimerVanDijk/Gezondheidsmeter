@@ -10,6 +10,7 @@
       <p>Gezondheids meter</p>
     </div>
     <div class="rechts">
+      <a href="vragenlijst.php">vragenlijst</a>
       <a href="logout.php">logout</a>
     </div>
   </nav>
