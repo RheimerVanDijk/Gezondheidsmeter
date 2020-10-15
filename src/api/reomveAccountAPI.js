@@ -17,6 +17,7 @@ async function removeAccount() {
     })
     .then((data) => {
       console.log(data);
+      window.location.href = "logout.php";
     })
     .catch((error) => {
       console.log(error);

@@ -27,7 +27,11 @@ async function login(email, password) {
       return response.json();
     })
     .then((data) => {
-      window.location.href = "Dashboard.php";
+      console.log(data);
+      if (data.msg == "Kan gebruiker niet vinden") {
+      } else {
+        window.location.href = "Dashboard.php";
+      }
     })
     .catch((error) => {
       console.log(error);

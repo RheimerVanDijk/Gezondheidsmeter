@@ -34,6 +34,7 @@ async function register(email, fullName, password) {
       return response.json();
     })
     .then((data) => {
+      window.location.href = "login.php";
       console.log(data);
       //popupController(data);
     })
