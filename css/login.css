@@ -57,3 +57,18 @@
   background-color: #7ed67e;
   border-color: #7ed67e;
 }
+
+/* MOBILE */
+@media only screen and (max-width: 825px) {
+  .loginCard {
+    width: 100%;
+  }
+
+  .loginCard .button-container {
+    width: 100%;
+  }
+
+  .loginCard .button-container button {
+    width: 150px;
+  }
+}
