@@ -1,7 +1,6 @@
 <?php
 
 if (isset($_POST["saveResults"])) {
-  // echo "gay";
   $awnsersArray = json_decode($_POST["awnsersObject"]);
 
   try {

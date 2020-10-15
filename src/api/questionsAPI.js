@@ -3,8 +3,6 @@ document.querySelector("#saveQuestions").addEventListener("click", () => {
 });
 
 async function saveResults() {
-  //console.log(awnsersArray);
-  //console.log(JSON.stringify(awnsersArray));
   const form = new FormData();
 
   form.append("saveResults", "");

@@ -28,7 +28,6 @@ async function login(email, password) {
     })
     .then((data) => {
       window.location.href = "Dashboard.php";
-      //popupController(data);
     })
     .catch((error) => {
       console.log(error);
