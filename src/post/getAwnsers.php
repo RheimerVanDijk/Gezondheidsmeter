@@ -6,9 +6,9 @@ if (isset($_POST["getAwnsers"])) {
   try {
     $connection = (new DB)->connect();
 
-    $stm = $connection->prepare("SELECT * FROM Results 
-    INNER JOIN (SELECT id, section_id FROM Questions ) Questions ON Results.question_id = Questions.id 
-    INNER JOIN (SELECT id, section FROM Sections) Sections ON Questions.section_id = Sections.id 
+    $stm = $connection->prepare("SELECT * FROM Results
+    INNER JOIN (SELECT id, section_id FROM Questions ) Questions ON Results.question_id = Questions.id
+    INNER JOIN (SELECT id, section FROM Sections) Sections ON Questions.section_id = Sections.id
     INNER JOIN (SELECT id, points FROM Awnsers) Awnsers ON Results.awnser_id = Awnsers.id
     WHERE Results.user_id = :user_id AND Sections.id = :section_id");
 
@@ -39,9 +39,9 @@ if (isset($_POST["getAllAwnsers"])) {
   try {
     $connection = (new DB)->connect();
 
-    $stm = $connection->prepare("SELECT * FROM Results 
-    INNER JOIN (SELECT id, section_id FROM Questions ) Questions ON Results.question_id = Questions.id 
-    INNER JOIN (SELECT id, section FROM Sections) Sections ON Questions.section_id = Sections.id 
+    $stm = $connection->prepare("SELECT * FROM Results
+    INNER JOIN (SELECT id, section_id FROM Questions ) Questions ON Results.question_id = Questions.id
+    INNER JOIN (SELECT id, section FROM Sections) Sections ON Questions.section_id = Sections.id
     INNER JOIN (SELECT id, points FROM Awnsers) Awnsers ON Results.awnser_id = Awnsers.id
     WHERE Results.user_id = :user_id");
 
