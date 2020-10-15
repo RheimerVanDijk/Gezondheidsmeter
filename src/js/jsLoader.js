@@ -37,3 +37,4 @@ scriptLoader("src/js/questionSections/sleep.js");
 scriptLoader("src/api/registerAPI.js");
 scriptLoader("src/api/loginAPI.js");
 scriptLoader("src/api/questionsAPI.js");
+scriptLoader("src/api/reomveAccountAPI.js");

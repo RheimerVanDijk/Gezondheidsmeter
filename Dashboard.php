@@ -132,7 +132,7 @@
         </div>
       </div>
       <div class="removeAccount">
-        <a><button>Account verwijderen</button></a>
+        <a href="verwijderAccount.php"><button>Account verwijderen</button></a>
       </div>
     </div>
   </div>
