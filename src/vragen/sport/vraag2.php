@@ -2,7 +2,7 @@
 ?>
 
 <div>
-  <p>2.1 Sport en beweging</p>
+  <p>2.2 Sport en beweging</p>
   <p>Heeft u vandaag gefietst en/of gewandeld?</p>
   <div>
     <input type="radio" id="ja" name="sport1" value="ja" onchange="walkChange(true)">
