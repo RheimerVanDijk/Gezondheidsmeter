@@ -10,16 +10,19 @@
       <p>Gezondheids meter</p>
     </div>
     <div class="rechts">
-      <a href="vragenlijst.php">vragenlijst</a>
-      <a href="slaapmeter.php">slaapmeter</a>
-      <a href="logout.php">logout</a>
+      <a href="vragenlijst.php">Vragenlijst | </a>
+      <a href="slaapmeter.php">Slaapmeter | </a>
+      <a href="logout.php">Logout</a>
     </div>
   </nav>
   <div class="content dashbaordPage">
     <img class="background" src="src/images/background_image.jpg" alt="">
+
+
     <div class="container container-left ">
       <div class="header">
-        <p>Welkom terug <?php echo $_SESSION['username'] ?></p>
+        <?php if(isset($_SESSION['username'])); ?>
+            <p>Welkom <strong><?php echo $_SESSION['username']; ?></strong></p>
         <div class="line"></div>
       </div>
       <div class="colors">

@@ -5,5 +5,5 @@
     $_SESSION['username'] = "";
     $_SESSION['userId'] = "";
 
-    header("Location: index.php");
+    header("Location: login.php");
 ?>
