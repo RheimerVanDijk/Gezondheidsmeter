@@ -45,7 +45,7 @@ function calcS5() {
 }
 
 function calcAlcohol() {
-  maxScoreNormal = 6;
+  maxScoreNormal = 9;
   maxScoreAlcohol = 3;
   alcoholScore = 0;
   const suiker = parseInt(
@@ -57,8 +57,11 @@ function calcAlcohol() {
   const alcohol = parseInt(
     document.querySelector('input[name="alcohol"]:checked').value
   );
+  const water = parseInt(
+    document.querySelector('input[name="water"]:checked').value
+  );
 
-  let score = maxScoreNormal - (suiker + cafeine);
+  let score = maxScoreNormal - (suiker + cafeine + water);
   let finalNormal;
 
   if (score <= 2) {

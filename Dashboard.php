@@ -17,11 +17,8 @@
   </nav>
   <div class="content dashbaordPage">
     <img class="background" src="src/images/background_image.jpg" alt="">
-
-
     <div class="container container-left ">
       <div class="header">
-        <?php if(isset($_SESSION['username'])); ?>
             <p>Welkom <strong><?php echo $_SESSION['username']; ?></strong></p>
         <div class="line"></div>
       </div>

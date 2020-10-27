@@ -41,14 +41,14 @@
   </div>
   <div class="water">
       <p>Hoeveel glazen water heeft u vandaag gedronken</p>
-      <input type="radio" id="water0" name="water" value="0" checked>
-      <label for="water0">0</label><br>
-      <input type="radio" id="water1" name="water" value="1">
-      <label for="water1">1</label><br>
-      <input type="radio" id="water2" name="water" value="2">
-      <label for="water2">2</label><br>
-      <input type="radio" id="water3" name="water" value="3">
-      <label for="water3">meer dan 2</label><br>
+      <input type="radio" id="water0" name="water" value="3" checked>
+      <label for="water0">Minder dan 1 Liter water</label><br>
+      <input type="radio" id="water1" name="water" value="2">
+      <label for="water1">1,0 tot 1,5 Liter Water</label><br>
+      <input type="radio" id="water2" name="water" value="0">
+      <label for="water2">1,5 tot 2,0 Liter water</label><br>
+      <input type="radio" id="water3" name="water" value="1">
+      <label for="water3">Meer dan 2 Liter water</label><br>
     </div>
   <button id="nextFoodTwo">Volgende</button>
 </div>

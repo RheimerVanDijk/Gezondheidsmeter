@@ -3,7 +3,7 @@
 
   class DB {
     public function connect() {
-      $dns = 'mysql:host=localhost;dbname=gezondheidsmeter';
+      $dns = 'mysql:host=127.0.0.1;dbname=gezondheidsmeter';
       $user = 'root';
       $pass = '';
 
