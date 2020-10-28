@@ -11,7 +11,9 @@
     </div>
     <div class="rechts">
     <ul>
-      <li></li>
+      <li>
+        <a href="Dashboard.php">Annuleren</a>
+      </li>
     </ul>
     </div>
   </nav>

@@ -13,5 +13,5 @@
   <div id="walkMenu" class="hidden">
     <input id="walkMin" type="number" placeholder="aantal minuten">
   </div>
-  <button id="walkCalc">Volgende</button>
+  <button class="Button_werk" id="walkCalc">Volgende</button>
 </div>

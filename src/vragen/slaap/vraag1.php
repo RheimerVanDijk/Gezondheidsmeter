@@ -15,6 +15,6 @@
     <div id="sleepState2" onclick="setSleepState(2)" class="sleepButton">
       <i class="far fa-frown"></i>
     </div>
-    <button id="saveSleepOne">Opslaan</button>
+    <button class="Button_werk" id="saveSleepOne">Opslaan</button>
   </div>
 </div>

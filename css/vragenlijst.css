@@ -4,3 +4,22 @@
     border-radius: 10px;
     background-color: #fff;
 }
+
+.Button_werk . button:hover{
+    border: 1px solid #5f9e5f;
+    background-color: rgb(190, 190, 190) ;
+    color: black;
+}
+
+
+.nextQuestion{
+    border: 1px solid #5f9e5f;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.nextQuestion:hover{
+    border: 1px solid #5f9e5f;
+    background-color: rgb(190, 190, 190);
+    color: black;
+}

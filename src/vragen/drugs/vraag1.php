@@ -12,5 +12,5 @@
     <input type="radio" id="drugs3" name="drugs" value="1">
     <label for="drugs3">Hard drugs</label><br>
   </div>
-  <button id="nextDrugsOne">volgende</button>
+  <button class="Button_werk" id="nextDrugsOne">volgende</button>
 </div>

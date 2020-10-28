@@ -50,5 +50,5 @@
       <input type="radio" id="water3" name="water" value="1">
       <label for="water3">Meer dan 2 Liter water</label><br>
     </div>
-  <button id="nextFoodTwo">Volgende</button>
+  <button class="Button_werk"  id="nextFoodTwo">Volgende</button>
 </div>

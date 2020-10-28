@@ -10,9 +10,11 @@
       <p>Gezondheids meter</p>
     </div>
     <div class="rechts">
+      
       <a href="vragenlijst.php">Vragenlijst | </a>
       <a href="slaapmeter.php">Slaapmeter | </a>
       <a href="logout.php">Logout</a>
+      
     </div>
   </nav>
   <div class="content dashbaordPage">

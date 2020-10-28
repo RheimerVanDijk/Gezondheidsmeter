@@ -22,5 +22,5 @@
     </select>
     <input id="sportUren" type="number" placeholder="aantal uren">
   </div>
-  <button id="sportCalc">Volgende</button>
+  <button class="Button_werk" id="sportCalc">Volgende</button>
 </div>

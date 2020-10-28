@@ -9,7 +9,9 @@
       <p>Gezondheids meter</p>
     </div>
     <div class="rechts">
-      <ul></ul>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+      </ul>
     </div>
   </nav>
   <div class="content">
@@ -22,11 +24,11 @@
         <form>
           <div class="input-group">
             <label for="loginEmail">E-mailadres:</label>
-            <input id="loginEmail" type="text" placeholder="E-mailadres">
+            <input id="loginEmail" type="text" placeholder="E-mailadres" required>
           </div>
           <div class="input-group">
             <label for="loginPassword">Wachtwoord:</label>
-            <input id="loginPassword" type="password" placeholder="Wachtwoord">
+            <input id="loginPassword" type="password" placeholder="Wachtwoord" required>
           </div>
           <div class="button-container">
             <button id="loginBtn" type="button" name="login" class="btn">Inloggen</button>

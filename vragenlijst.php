@@ -10,9 +10,7 @@
     </div>
     <div class="rechts">
     <ul>
-    <div class="rechts">
       <a href="Dashboard.php">Annuleren</a>
-    </div>
     </ul>
     </div>
   </nav>

@@ -30,8 +30,3 @@ nav .rechts ul li {
   list-style-type: none;
 }
 
-nav .rechts:hover {
-  background-color: #fff;
-  border: 1px solid #5f9e5f ;
-  cursor: pointer;
-}

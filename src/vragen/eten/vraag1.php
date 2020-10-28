@@ -16,5 +16,5 @@
   <input type="checkbox" id="s5GenG" name="GenG" value="1">
   <label for="s5GenG">Graan en graanproducten</label><br>
   </div>
-  <button id="nextFoodOne">Volgende</button>
+  <button class="Button_werk"  id="nextFoodOne">Volgende</button>
 </div>
