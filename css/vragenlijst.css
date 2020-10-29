@@ -1,25 +1,19 @@
-.Button_werk button{
+.Button_question button{
     border: 1px solid #5f9e5f;
     padding: 5px 20px;
-    border-radius: 10px;
-    background-color: #fff;
+    border-radius: 15px;
 }
 
-.Button_werk . button:hover{
+.Button_question button:hover{
     border: 1px solid #5f9e5f;
-    background-color: rgb(190, 190, 190) ;
-    color: black;
+    color: white;
 }
 
-
-.nextQuestion{
-    border: 1px solid #5f9e5f;
-    border-radius: 10px;
-    background-color: #fff;
+.sleepButton{
+    background-color: lightgray;
+    width: 16px;
 }
 
-.nextQuestion:hover{
-    border: 1px solid #5f9e5f;
-    background-color: rgb(190, 190, 190);
-    color: black;
+.Hoofdtitel{
+    font-weight: bold;
 }

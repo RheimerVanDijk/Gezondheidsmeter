@@ -2,7 +2,9 @@
 ?>
 
 <div>
-  <p>2.1 Sport en beweging</p>
+  <div class="Hoofdtitel">
+    <p>2.1 Sport en beweging</p>
+  </div>
   <p>Heeft u vandaag gesport?</p>
   <div>
     <input type="radio" id="ja" name="sport1" value="ja" onchange="sportChange(true)">
@@ -22,5 +24,8 @@
     </select>
     <input id="sportUren" type="number" placeholder="aantal uren">
   </div>
-  <button class="Button_werk" id="sportCalc">Volgende</button>
+  <div class="Button_question">
+    <button id="sportCalc">Volgende</button>
+  </div>
+  
 </div>
