@@ -72,3 +72,13 @@ function calcAllAverage(awnsersArray) {
 
   return fixedGrade;
 }
+
+// function van nav mobile dropdown
+function dropdown_menu() {
+  let x = document.getElementById("mobile_id");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
