@@ -11,7 +11,9 @@
     </div>
     <div class="rechts">
     <ul>
-      <li></li>
+      <li>
+        <a href="Dashboard.php">Annuleren</a>
+      </li>
     </ul>
     </div>
   </nav>
@@ -19,7 +21,6 @@
     <img class="background" src="src/images/background_image.jpg" alt="">
     <div class="container container-center">
       <div class="questionCard">
-        <button id="nextQuestion">next</button>
         <div data-q="1" class="sleepQuestion">
           <?php require_once('src/vragen/slaap/vraag1.php') ?>
         </div>
