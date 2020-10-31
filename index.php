@@ -10,7 +10,7 @@
     </div>
     <div class="rechts">
     <ul>
-      <li><a class="fas fa-user" href="login.php"> Login</a></li>
+      <li><a href="login.php"> Login</a></li>
     </ul>
     </div>
   </nav>

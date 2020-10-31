@@ -20,7 +20,13 @@
     <div class="container container-center">
       <div class="removeAccount">
         <p>Weet u zeker dat u uw account wilt verwijderen?</p>
-        <button id="deleteAccountButton">Verwijder Account</button>
+        <div class="button_anu">
+          <a href="Dashboard.php">Annuleren</a>
+        </div>
+        <div class="Button_question_del" >
+          <button id="deleteAccountButton">Verwijder Account</button>
+        </div>
+    
       </div>
     </div>
   </div>

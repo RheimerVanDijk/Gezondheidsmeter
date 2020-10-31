@@ -91,3 +91,38 @@
   background-color: rgb(92, 155, 92);
   margin-right: 5px;
 }
+
+.Button_question_del button{
+  border: 1px solid black;
+  background-color: #f85454;
+  opacity: 0.8;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.button_anu, .Button_question_del{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+
+.Button_question_del button:hover{
+  background-color: #ff1b1b;
+}
+
+.button_anu {
+  border: 1px solid black;
+  background-color: #5f9e5f;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.button_anu:hover{
+  background-color: #37e737;
+}
+
