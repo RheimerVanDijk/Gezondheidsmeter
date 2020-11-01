@@ -93,9 +93,10 @@
 }
 
 .Button_question_del button{
-  border: 1px solid black;
-  background-color: #f85454;
+  border: none;
+  background-color: #FF7474;
   opacity: 0.8;
+  color: white;
   padding: 5px 20px;
   border-radius: 15px;
   margin-top: 10px;
@@ -105,24 +106,43 @@
   display: flex;
   flex-direction: column;
   width: 180px;
+  margin-left: 11rem;
 }
 
 .Button_question_del button:hover{
-  background-color: #ff1b1b;
+  background-color: #ED5E5E;
 }
-
-.button_anu {
-  border: 1px solid black;
-  background-color: #5f9e5f;
+.button_anu a{
+  color:white;
+}
+.button_anu{
+  background-color: #83E683;
   opacity: 0.8;
   text-align: center;
+  color: white;
   font-size: 14px;
   padding: 5px 20px;
   border-radius: 15px;
   margin-top: 10px;
 }
 
-.button_anu:hover{
-  background-color: #37e737;
+.active{
+  border-bottom: 3px solid #83E683;
 }
+
+.button_anu:hover{
+  background-color: #7CC97C;
+}
+
+.con_del{
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.removeAccount_del{
+  font-size: 25px;
+}
+
+
 

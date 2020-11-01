@@ -11,6 +11,7 @@
     </div>
     <div class="desk-menu">
       <div class="rechts">
+        <a class="active" href="Dashboard.php">Dashboard</a> |
         <a href="vragenlijst.php">Vragenlijst | </a>
         <a href="slaapmeter.php">Slaapmeter | </a>
         <a href="logout.php">Logout</a>

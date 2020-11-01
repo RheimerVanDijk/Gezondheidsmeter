@@ -12,7 +12,10 @@
     <div class="rechts">
     <ul>
       <li>
-        <a href="Dashboard.php">Annuleren</a>
+        <a href="Dashboard.php">Dashboard</a> |
+        <a href="vragenlijst.php">Vragenlijst | </a>
+        <a class="active" href="slaapmeter.php">Slaapmeter | </a>
+        <a href="logout.php">Logout</a>
       </li>
     </ul>
     </div>

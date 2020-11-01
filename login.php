@@ -10,7 +10,10 @@
     </div>
     <div class="rechts">
       <ul>
-        <li><a href="index.php">Home</a></li>
+        <li>
+          <a href="index.php">Home | </a> 
+          <a class="active" href="index.php">Login </a>
+        </li>
       </ul>
     </div>
   </nav>

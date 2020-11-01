@@ -18,15 +18,18 @@
   <div class="content">
     <img class="background" src="src/images/background_image.jpg" alt="">
     <div class="container container-center">
-      <div class="removeAccount">
-        <p>Weet u zeker dat u uw account wilt verwijderen?</p>
-        <div class="button_anu">
-          <a href="Dashboard.php">Annuleren</a>
+      <div class="removeAccount_del">
+        <p>Weet u zeker dat u uw account wilt verwijderen?</p> <br>
+        <div class="con_del">
+          
+          <p>(alle gegevens die we over u hebben worden verwijderd)</p> <br>
+          <div class="Button_question_del" >
+            <button id="deleteAccountButton">Verwijderen</button>
+          </div>
+          <div class="button_anu">
+            <a href="Dashboard.php">Annuleren</a>
+          </div>
         </div>
-        <div class="Button_question_del" >
-          <button id="deleteAccountButton">Verwijder Account</button>
-        </div>
-    
       </div>
     </div>
   </div>

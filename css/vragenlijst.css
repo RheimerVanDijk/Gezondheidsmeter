@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     width: 180px;
+    Border-radius: 20px;
+    Border: none;
+
 }
 
 .Button_question .goed{
@@ -19,20 +22,20 @@
 }
 
 .Button_question .goed:hover{
-    background-color: #5f9e5f;
+    background-color: #7CC97C;
 }
 
 .Button_question .matig:hover{
-    background-color: #ffd11a;
+    background-color: #E28D38;
 }
 
 .Button_question .slecht:hover{
-    background-color: #f85454;
+    background-color: #ED5E5E;
 }
 
 .Button_question button{
     border: 1px solid black;
-    background-color: #5f9e5f;
+    background-color: #83E683;
     opacity: 0.8;
     padding: 5px 20px;
     border-radius: 15px;
@@ -40,7 +43,7 @@
 }
 
 .Button_question button:hover{
-    background-color: #2c8b2c;
+    background-color: #7CC97C;
 }
 
 .sleepButton{
@@ -55,10 +58,11 @@
 
 .Border-vraag{
     border: 1px solid lightgray;
-    box-shadow: 2px 2px gray;
+    Border-radius: 20px;
+    Box-shadow: 0px 3px 8px Color rgba(0,0,0,0.3);
     height: 13rem;
     width: 25rem;
-    padding: 10px 30px;
+    Padding: 30px
 }
 
 

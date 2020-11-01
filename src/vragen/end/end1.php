@@ -1,4 +1,4 @@
-<div>
+<div class="Border-vraag">
 <div class="Hoofdtitel">
   <p>Bedankt voor het invullen van de vragen</p>
 </div>

@@ -10,7 +10,10 @@
     </div>
     <div class="rechts">
     <ul>
-      <a href="Dashboard.php">Annuleren</a>
+        <a href="Dashboard.php">Dashboard | </a> 
+        <a class="active"  href="vragenlijst.php">Vragenlijst</a> |
+        <a href="slaapmeter.php">Slaapmeter | </a>
+        <a href="logout.php">Logout</a>
     </ul>
     </div>
   </nav>
