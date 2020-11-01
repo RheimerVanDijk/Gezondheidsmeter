@@ -3,14 +3,16 @@
 This is a **school project** for senior years.
 
 ## Setup
+
 What it takes to run this project.
 
 ### Database.
+
 You need a MariaDB/MySql Database. The needed seeder / setup for this is defined [here](https://github.com/RheimerVanDijk/Gezondheidsmeter/tree/master/seeder)
 
-
-Configuration for the website is defined in ``/src/classes/dbClass.php``
+Configuration for the website is defined in `/src/classes/dbClass.php`
 In there you need to change needed variables
+
 ```php
     public function connect() {
       // host=ENTER YOUR DB IP HERE
@@ -24,7 +26,9 @@ In there you need to change needed variables
 ```
 
 ### Running the website
+
 Simple, have [PHP installed](https://www.php.net/downloads) and then run the following command:
+
 ```bash
 php -S localhost:80
 ```
