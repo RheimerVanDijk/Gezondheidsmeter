@@ -5,7 +5,7 @@
     public function connect() {
       $dns = 'mysql:host=127.0.0.1;dbname=gezondheidsmeter';
       $user = 'root';
-      $pass = '';
+      $pass = 'root';
 
       return new PDO($dns, $user, $pass);
     }
