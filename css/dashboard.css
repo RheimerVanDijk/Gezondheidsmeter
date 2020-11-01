@@ -48,7 +48,7 @@
   color: white;
   padding: 5px 20px;
   border-radius: 20px;
-  background-color: #eb6161;
+  background-color: #FF7474;
 }
 
 .colors {
@@ -112,9 +112,11 @@
 .Button_question_del button:hover{
   background-color: #ED5E5E;
 }
+
 .button_anu a{
   color:white;
 }
+
 .button_anu{
   background-color: #83E683;
   opacity: 0.8;
@@ -142,6 +144,10 @@
 
 .removeAccount_del{
   font-size: 25px;
+}
+
+.removeAccount button:hover{
+  background-color: #ED5E5E;
 }
 
 
