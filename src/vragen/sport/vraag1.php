@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<div>
+<div class="Border-vraag">
   <div class="Hoofdtitel">
     <p>2.1 Sport en beweging</p>
   </div>

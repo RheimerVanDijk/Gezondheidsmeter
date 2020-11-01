@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<div>
+<div class="Border-vraag">
   <p>3.2 Voeding en alcohol</p>
   <p>Welke type dranken heeft u op en hoeveel</p>
   <div>

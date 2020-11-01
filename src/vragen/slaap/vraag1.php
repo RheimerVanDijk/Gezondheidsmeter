@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<div>
+<div class="Border-vraag">
 <div class="Hoofdtitel">
     <p>6.1 Slapen</p>
   </div>

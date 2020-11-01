@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<div>
+<div class="Border-vraag">
 <div class="Hoofdtitel">
   <p>3.1 Voeding en alcohol</p>
   </div>

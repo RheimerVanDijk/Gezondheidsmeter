@@ -4,7 +4,44 @@
     width: 180px;
     Border-radius: 20px;
     Border: none;
+}
 
+.Button_question button{
+    border: none;
+    background-color: #83E683;
+    opacity: 0.8;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.Button_question_save button{
+    border: none;
+    background-color: #83E683;
+    opacity: 0.8;
+    padding: 5px 20px;
+    border-radius: 15px;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 7rem;
+}
+
+.Border-vraag{
+    border: 1px solid gray;
+    Border-radius: 20px;
+    Box-shadow: 0px 3px 8px Color rgba(0,0,0,0.3);
+    height: auto;
+    width: 30rem;
+    Padding: 30px
+}
+
+.Hoofdtitel_Save{
+    font-size: 20px;
+    text-align: center;
+}
+
+.Button_question_save button:hover{
+    background-color: #7CC97C;
 }
 
 .Button_question .goed{
@@ -33,37 +70,21 @@
     background-color: #ED5E5E;
 }
 
-.Button_question button{
-    border: 1px solid black;
-    background-color: #83E683;
-    opacity: 0.8;
-    padding: 5px 20px;
-    border-radius: 15px;
-    margin-top: 10px;
-}
 
 .Button_question button:hover{
     background-color: #7CC97C;
-}
-
-.sleepButton{
-    background-color: lightgray;
-    width: 16px;
 }
 
 .Hoofdtitel{
     font-size: 12px;
 }
 
-
-.Border-vraag{
-    border: 1px solid lightgray;
-    Border-radius: 20px;
-    Box-shadow: 0px 3px 8px Color rgba(0,0,0,0.3);
-    height: 13rem;
-    width: 25rem;
-    Padding: 30px
+.Border-vraag input, select{
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
-
-
 
