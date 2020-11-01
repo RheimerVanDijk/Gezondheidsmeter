@@ -29,7 +29,7 @@
 .Border-vraag{
     border: 1px solid gray;
     Border-radius: 20px;
-    Box-shadow: 0px 3px 8px Color rgba(0,0,0,0.3);
+    Box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
     height: auto;
     width: 30rem;
     Padding: 30px

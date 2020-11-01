@@ -5,8 +5,7 @@
 <div class="Hoofdtitel">
   <p>3.1 Voeding en alcohol</p>
   </div>
-  
-  <p>Welke delen van de schijf van 5 heeft u vandaag getegen</p>
+    <p>Welke delen van de schijf van 5 heeft u vandaag getegen</p>
   <div>
   
   <input type="checkbox" id="s5zuivel" name="zuivel" value="1">
