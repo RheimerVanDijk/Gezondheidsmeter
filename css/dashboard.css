@@ -1,0 +1,154 @@
+.dashbaordPage .header {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.dashbaordPage .header .line {
+  width: 100px;
+  height: 5px;
+  background-color: #7ed67e;
+}
+
+.chart-section {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.chart-section .centerGrade {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.chart-section .title {
+  font-size: 20px;
+}
+
+.chart-section .chart {
+  position: relative;
+  margin-top: -25px;
+  max-width: 200px;
+}
+
+.chart-section .chart .text {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 25px;
+}
+
+.dashbaordPage .removeAccount button {
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #FF7474;
+}
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.colors div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colors .bad .box {
+  width: 30px;
+  height: 10px;
+  background-color: rgb(235, 97, 97);
+  margin-right: 5px;
+}
+
+.colors .mwah .box {
+  width: 30px;
+  height: 10px;
+  background-color: rgb(255, 161, 67);
+  margin-right: 5px;
+}
+
+.colors .better .box {
+  width: 30px;
+  height: 10px;
+  background-color: rgb(131, 230, 131);
+  margin-right: 5px;
+}
+
+.colors .good .box {
+  width: 30px;
+  height: 10px;
+  background-color: rgb(92, 155, 92);
+  margin-right: 5px;
+}
+
+.Button_question_del button{
+  border: none;
+  background-color: #FF7474;
+  opacity: 0.8;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.button_anu, .Button_question_del{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-left: 11rem;
+}
+
+.Button_question_del button:hover{
+  background-color: #ED5E5E;
+}
+
+.button_anu a{
+  color:white;
+}
+
+.button_anu{
+  background-color: #83E683;
+  opacity: 0.8;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.active{
+  border-bottom: 3px solid #83E683;
+}
+
+.button_anu:hover{
+  background-color: #7CC97C;
+}
+
+.con_del{
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.removeAccount_del{
+  font-size: 25px;
+}
+
+.removeAccount button:hover{
+  background-color: #ED5E5E;
+}
+
+
+

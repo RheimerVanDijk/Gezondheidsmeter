@@ -10,8 +10,8 @@ $query = file_get_contents("seeder.sql");
 
 $stmt = $db->prepare($query);
 
-if ($stmt->execute()){
+if ($stmt->execute()) {
      echo "Success";
-}else{ 
+} else {
      echo "Fail";
 }

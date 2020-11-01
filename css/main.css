@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import "nav.css";
+@import "login.css";
+@import "register.css";
+@import "dashboard.css";
+@import "vragenlijst.css";
 
 * {
   padding: 0;
@@ -9,12 +13,13 @@
 }
 
 body {
-  background-color: #e6e5e1;
+  background-color: rgb(229, 228, 224);
 }
 
 .content {
   width: 100%;
-  height: 100vw;
+  min-height: 100vh;
+  padding-top: 77px;
 }
 
 .content .background {
@@ -25,68 +30,43 @@ body {
   z-index: 1;
 }
 
-.header{
-  width: 30%;
-  margin: 50px auto 0px;
-  color: white;
-  background-color: #5f9ea0;
-  text-align: center;
-  border: 1px solid #b0c4de;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
-  padding: 20px;
+.container {
+  min-height: calc(100vh - 77px);
+  padding: 0px 100px;
+  position: relative;
+  z-index: 100;
+  padding-bottom: 30px;
 }
 
-form{
-  width: 30%;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #b0c4de;
-  background: white;
-  border-radius: 0px 0px 10px 10px;
+.container-center {
+  display: flex;
+  align-items: center;
 }
 
-.input-group{
-  margin: 10px 0px 10px 0px;
+.container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.input-group label{
-  display: block;
-  text-align: left;
-  margin: 3px;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.input-group input{
-  height: 30px;
-  width: 93%;
-  padding: 5px 10px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: 1px solid gray;
+.hidden {
+  display: none;
 }
 
-.btn{
-  padding: 10px;
-  font-size: 15px;
-  color: white;
-  background: #5f9ea0;
-  border: none;
-  border-radius: 5px;
+/* MOBILE */
+@media only screen and (max-width: 825px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .background {
+    display: none;
+  }
 }
 
-.error{
-  width: 92%;
-  margin: 0px auto;
-  padding: 10px ;
-  border: 1px solid #a94442;
-  color: #a94442;
-  background: #f2dede;
-  border-radius: 5px;
-  text-align: left;
-}
-.success{
-  color: #3c763d;
-  background: #dff0d8;
-  border: 1px solid #3c763d;
-  margin-bottom: 20px;
-}
+

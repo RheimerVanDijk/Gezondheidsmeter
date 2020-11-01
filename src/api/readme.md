@@ -1,1 +1,1 @@
-voeg hier alle js files toe als die async posts requests maken
+voeg hier alle js files toe als exit async posts requests maken

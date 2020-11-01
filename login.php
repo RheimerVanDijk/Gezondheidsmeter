@@ -1,39 +1,45 @@
-<?php 
-  if(!isset($_SESSION)) session_start();
+<?php
+  if (!isset($_SESSION)) session_start();
   require_once('src/layout/header.php');
-  include('src/layout/server.php');
 ?>
-<nav>
-  <div class="links">
-    <i class="fas fa-apple-alt"></i>
-    <p>Gezondheids meter</p>
+
+  <nav>
+    <div class="links">
+      <i class="fas fa-apple-alt"></i>
+      <p>Gezondheids meter</p>
+    </div>
+    <div class="rechts">
+      <ul>
+        <li>
+          <a href="index.php">Home | </a> 
+          <a class="active" href="index.php">Login </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content">
+    <img class="background" src="src/images/background_image.jpg" alt="">
+    <div class="container container-center">
+      <div class="loginCard">
+        <div class="title">
+          <p>Login bij de gezondheid meter</p>
+        </div>
+        <form>
+          <div class="input-group">
+            <label for="loginEmail">E-mailadres:</label>
+            <input id="loginEmail" type="text" placeholder="E-mailadres" required>
+          </div>
+          <div class="input-group">
+            <label for="loginPassword">Wachtwoord:</label>
+            <input id="loginPassword" type="password" placeholder="Wachtwoord" required>
+          </div>
+          <div class="button-container">
+            <button id="loginBtn" type="button" name="login" class="btn">Inloggen</button>
+            <a href="register.php"><button type="button" name="login" class="btn">Registreren</button></a>
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
-  <div class="rechts">
-  <ul>
-   
-  </ul>
-  </div>
-</nav>
-<div class="content">
-<div class="header">
-        <h2>Login</h2>
-    </div>
-    <form method="POST" action="login.php">
-    <?php include('src/layout/errors.php');?>
-    <div class="input-group">
-        <label>Volledige naam:</label>
-        <input type="text" name="username">
-    </div>
-    <div class="input-group">
-        <label>Wachtwoord:</label>
-        <input type="password" name="password">
-    </div>
-    <div class="input-group">
-        <button type="submit" name="login" class="btn">Login</button>
-    </div>
-    <p>
-        Nog geen lid? meld u dan aan <a href="register.php">Registeer</a>
-    </p>
-    </form>
-</div>
+
 <?php require_once('src/layout/footer.php') ?>
