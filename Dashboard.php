@@ -24,6 +24,9 @@
     </div>
     <div class="mobile-nav" id="mobile_id">
       <div class="divider">
+        <a class="active" href="Dashboard.php">Dashboard</a>
+      </div>
+      <div class="divider">
         <a href="vragenlijst.php">Vragenlijst</a>
       </div>
       <div class="divider">
