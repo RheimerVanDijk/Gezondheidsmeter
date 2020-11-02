@@ -8,13 +8,32 @@
       <i class="fas fa-apple-alt"></i>
       <p>Gezondheids meter</p>
     </div>
-    <div class="rechts">
-    <ul>
-        <a href="Dashboard.php">Dashboard | </a> 
-        <a class="active"  href="vragenlijst.php">Vragenlijst</a> |
+    <div class="desk-menu">
+      <div class="rechts">
+        <a href="Dashboard.php">Dashboard</a> |
+        <a class="active" href="vragenlijst.php">Vragenlijst | </a>
         <a href="slaapmeter.php">Slaapmeter | </a>
         <a href="logout.php">Logout</a>
-    </ul>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="rechts">
+        <i class="fas fa-bars fa-2x" onclick="dropdown_menu()"></i>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobile_id">
+      <div class="divider">
+        <a href="Dashboard.php">Dashboard</a>
+      </div>
+      <div class="divider">
+        <a class="active" href="vragenlijst.php">Vragenlijst</a>
+      </div>
+      <div class="divider">
+        <a href="slaapmeter.php">Slaapmeter</a>
+      </div>
+      <div class="divider">
+        <a href="logout.php">Logout</a>
+      </div>
     </div>
   </nav>
   <div class="content">

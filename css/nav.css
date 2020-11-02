@@ -71,6 +71,12 @@ nav .rechts ul li {
 
   .rechts {
     padding: 0 20px;
+  }  
+}
+
+@media only screen and (min-width: 601px) {
+  #mobile_id {
+    display: none !important;
   }
 }
 
