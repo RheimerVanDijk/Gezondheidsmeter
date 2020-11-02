@@ -11,9 +11,9 @@
     </div>
     <div class="desk-menu">
       <div class="rechts">
-        <a href="Dashboard.php">Dashboard</a> |
+        <a href="Dashboard.php">Dashboard | </a>
         <a href="vragenlijst.php">Vragenlijst | </a>
-        <a class="active" href="slaapmeter.php">Slaapmeter | </a>
+        <a class="active" href="slaapmeter.php">Slaapmeter</a> |
         <a href="logout.php">Logout</a>
       </div>
     </div>
