@@ -30,23 +30,23 @@
     <div class="content-container-home">
       <div class="text-box-home">
         <h3>Wat houdt dit onderzoek in.</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <p>Dit is een onderzoek om er achter te komen hoe de gezondheid er voor staat in nederland. 
+          Dit word gedaan door een aantal vragen per dan te beantwoorden voor een paar maanden. 
+          Na het beantwoorden van deze vragen word er een gemiddelde getoont in de form van een cijfer en grafiek. 
+          Hier naast is de gemiddelde gezonheidscijfer te zien van de tot nu toe ingevulde vragen.
         </p>
       </div>
-      <div class="text-box-home">
+      <div class="text-box-home chart-section">
         <h3>Wat houdt dit onderzoek in.</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-        </p>
+        <p>Gemiddelde gezonheids cijfer voor nederland</p>
+        <div class="chart">
+          <canvas id="homeChart" width="200" height="200"></canvas>
+          <div id="homeChartCenterGrade" class="centerGrade"></div>
+          <div class="text">
+            <p>0</p>
+            <p>10</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

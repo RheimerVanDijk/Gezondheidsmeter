@@ -27,6 +27,7 @@ scriptLoader("src/js/charts/alcoholChart.js");
 scriptLoader("src/js/charts/sleepChart.js");
 scriptLoader("src/js/charts/sportChart.js");
 scriptLoader("src/js/charts/workChart.js");
+scriptLoader("src/js/charts/homeChart.js");
 scriptLoader("src/js/question.js");
 scriptLoader("src/js/questionSections/sport.js");
 scriptLoader("src/js/questionSections/eten.js");

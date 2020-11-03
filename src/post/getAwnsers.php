@@ -66,3 +66,32 @@ if (isset($_POST["getAllAwnsers"])) {
     print "Error!: " . $e->getMessage() . "<br/>";
   }
 }
+
+if (isset($_POST["getWholeAverage"])) {
+  try {
+    $connection = (new DB)->connect();
+
+    $stm = $connection->prepare("SELECT * FROM Results
+    INNER JOIN (SELECT id, section_id FROM Questions ) Questions ON Results.question_id = Questions.id
+    INNER JOIN (SELECT id, section FROM Sections) Sections ON Questions.section_id = Sections.id
+    INNER JOIN (SELECT id, points FROM Awnsers) Awnsers ON Results.awnser_id = Awnsers.id");
+
+    $stm->execute();
+
+    $result = $stm->fetchAll();
+
+    $connection = null;
+
+    echo json_encode([
+      $result
+    ]);
+
+  }
+  catch (PDOxception $e) {
+    echo json_encode([
+      'error' => $e->getMessage(),
+    ]);
+
+    print "Error!: " . $e->getMessage() . "<br/>";
+  }
+}
