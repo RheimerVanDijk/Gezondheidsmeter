@@ -40,10 +40,9 @@ async function login(email, password) {
     .catch((error) => {
       console.log(error);
     });
-
 }
 
-async function checkForgotten(){
+async function checkForgotten() {
   const form = new FormData();
 
   form.append("checkForgotten", "");
@@ -52,20 +51,17 @@ async function checkForgotten(){
     method: "POST",
     body: form,
   })
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-    console.log(data);
-    if(data.type == "true"){
-
-    }else{
-      
-    }
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      console.log(data);
+      // if (data.type == "true") {
+      // } else {
+      // }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
 }
 checkForgotten();
-

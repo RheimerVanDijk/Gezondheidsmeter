@@ -28,6 +28,7 @@
 
     exit;
   }
+
   if(isset($_POST['checkForgotten'])){
     try{
       $connection = (new DB)->connect();
@@ -39,9 +40,10 @@
           'user_id' => $_SESSION['userId'],
       ]);
   
-      $result = $stm->fetchAssoc();
+      $result = $stm->fetchAll();
+
       $lastDate = $result['created_at'];
-  
+
       $currentDate = date("y/m/d");
   
       if($lastDate < $currentDate){

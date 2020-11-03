@@ -13,5 +13,5 @@
     require_once('post/sendAwnsers.php'); // requests for awnsers
     require_once('post/getAwnsers.php'); // requests for get awnsers
     require_once('post/deleteAccount.php'); // requests for get delete account
-    require_once('post/forgotDay.php'); //request for forgotten date
+    // require_once('post/forgotDay.php'); //request for forgotten date
 ?>
