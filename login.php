@@ -27,10 +27,12 @@
         <form>
           <div class="input-group">
             <label for="loginEmail">E-mailadres:</label>
+            <p class="login-email-error"></p>
             <input id="loginEmail" type="text" placeholder="E-mailadres" required>
           </div>
           <div class="input-group">
             <label for="loginPassword">Wachtwoord:</label>
+            <p class="login-password-error"></p>
             <input id="loginPassword" type="password" placeholder="Wachtwoord" required>
           </div>
           <div class="button-container">

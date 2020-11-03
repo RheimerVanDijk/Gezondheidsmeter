@@ -6,7 +6,21 @@ if (checkElement("#loginBtn")) {
 
     let password = document.querySelector("#loginPassword").value;
 
-    login(email, password);
+    let loginEmail = document.querySelector(".login-email-error");
+    let loginPassword = document.querySelector(".login-password-error");
+
+    if (email == "" && password == "") {
+      loginEmail.innerHTML = "Geen email ingevuld";
+      loginPassword.innerHTML = "Geen wachtwoord ingevuld";
+    } else if (email == "") {
+      loginEmail.innerHTML = "Geen email ingevuld";
+      loginPassword.innerHTML = "";
+    } else if (password == "") {
+      loginEmail.innerHTML = "";
+      loginPassword.innerHTML = "Geen wachtwoord ingevuld";
+    } else {
+      login(email, password);
+    }
   });
 }
 
