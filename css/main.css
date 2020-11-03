@@ -61,6 +61,18 @@ a {
 
 /* MOBILE */
 @media only screen and (max-width: 825px) {
+  .content {
+    background-image: url("../src/images/mobile_background_image.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-blend-mode: lighten;
+    background-color: rgba(229, 228, 224, 0.726);
+  }
+
+  .background-image {
+    display: none;
+  }
+
   .container {
     padding: 0 15px;
   }
@@ -68,6 +80,27 @@ a {
   .background {
     display: none;
   }
+
+
 }
 
+@media only screen and (max-width: 600px) {
+  .header-info h2 {
+    font-size: 2rem;
+    width: 90vw;
+  }
+
+  .top {
+    margin-bottom: 10px;
+  }
+
+  .content-container-home {
+    display: block;
+  }
+
+  .text-box-home {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
 

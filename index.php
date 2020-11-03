@@ -23,7 +23,7 @@
         <h2>Doe ook mee <br> aan het landelijke <br> <span>gezondheids</span> onderzoek!</h2>
         <a href="#">Lees meer!</a>
       </div>
-      <div>
+      <div class="background-image">
         <img src="src/images/background_image.jpg" alt="">
       </div>
     </div>
