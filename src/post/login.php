@@ -6,6 +6,7 @@
 
     $userData = (new User)->get($email);
 
+
     if (property_exists($userData, 'password')) {
       if (password::verify($userData->password, $password)) {
         $_SESSION['loggedIn'] = true;

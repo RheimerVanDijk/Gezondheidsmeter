@@ -33,6 +33,7 @@ scriptLoader("src/js/questionSections/sport.js");
 scriptLoader("src/js/questionSections/eten.js");
 scriptLoader("src/js/questionSections/drugs.js");
 scriptLoader("src/js/questionSections/sleep.js");
+scriptLoader("src/js/forgotDay.js");
 
 // api files
 scriptLoader("src/api/registerAPI.js");

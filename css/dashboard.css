@@ -150,5 +150,39 @@
   background-color: #ED5E5E;
 }
 
+.popup{
+  position: relative;
+  width:12rem; 
+  height:12rem;
+  background: #E5E4E0;
+  border: 1px solid;
+  margin-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.vergetenHeader{
+color: #7ED67E;
+margin-left: 0.5rem;
+}
+
+.vergetenText{
+color: #000000;
+margin-left: 0.5rem;
+padding-top: 0.2rem;
+}
+
+.vergetenText a {
+  text-decoration: underline;
+  color: #7ed67e;
+}
+
+.exitButton{
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
 
 

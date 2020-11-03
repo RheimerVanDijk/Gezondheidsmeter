@@ -39,6 +39,11 @@
   </nav>
 
   <div class="content dashbaordPage">
+    <div class="popup" id="popup">
+      <span><button onclick="invisible()" class="exitButton">X</button></span>
+      <h3 class="vergetenHeader">Oeps... U bent een dag vergeten</h3>
+      <p class="vergetenText">Het lijkt erop dat u een dag vergeten bent. <a href="Dashboard.php" >Klik hier</a> om de dag snel in te vullen</p>
+    </div>
     <img class="background" src="src/images/background_image.jpg" alt="">
     <div class="container container-left ">
       <div class="header">
