@@ -40,16 +40,6 @@ function calcAverage(awnsersArray, questionAmount, name) {
   grade = pointWorth * totalPoints;
   fixedGrade = grade.toFixed(1);
 
-  // console.log(name + "---------------------------------------");
-  // console.log("maxPoints: " + maxPoints);
-  // console.log("totalPoints: " + totalPoints);
-  // console.log("totalAwnsers: " + totalAwnsers);
-  // console.log("totalQuestions: " + totalQuestions);
-  // console.log("maxGrade: " + maxGrade);
-  // console.log("1 point worth: " + pointWorth);
-  // console.log("grade: " + grade);
-  // console.log("fixed grade: " + fixedGrade);
-
   return fixedGrade;
 }
 

@@ -4,6 +4,7 @@
 @import "register.css";
 @import "dashboard.css";
 @import "vragenlijst.css";
+@import "home.css";
 
 * {
   padding: 0;

@@ -39,3 +39,22 @@ async function getAllAwnsers(testFunc) {
       console.log(error);
     });
 }
+
+async function getWholeAverage(chartFunction) {
+  const form = new FormData();
+  form.append("getWholeAverage", "");
+
+  const post = await fetch("src/importer.php", {
+    method: "POST",
+    body: form,
+  })
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      chartFunction(calcAllAverage(data));
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}
