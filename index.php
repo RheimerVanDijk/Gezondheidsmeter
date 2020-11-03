@@ -30,15 +30,15 @@
     <div class="content-container-home">
       <div class="text-box-home">
         <h3>Wat houdt dit onderzoek in.</h3>
-        <p>Dit is een onderzoek om er achter te komen hoe de gezondheid er voor staat in nederland. 
+        <p>Dit is een onderzoek om er achter te komen hoe de gezondheid er voor staat in Nederland. 
           Dit word gedaan door een aantal vragen per dan te beantwoorden voor een paar maanden. 
           Na het beantwoorden van deze vragen word er een gemiddelde getoont in de form van een cijfer en grafiek. 
-          Hier naast is de gemiddelde gezonheidscijfer te zien van de tot nu toe ingevulde vragen.
+          Hier naast is de gemiddelde gezondheidscijfer te zien van de tot nu toe ingevulde vragen.
         </p>
       </div>
       <div class="text-box-home chart-section">
-        <h3>Wat houdt dit onderzoek in.</h3>
-        <p>Gemiddelde gezonheids cijfer voor nederland</p>
+        <h3>Wat houdt dit onderzoek in?</h3>
+        <p>Gemiddelde gezondheids cijfers voor Nederland.</p>
         <div class="chart">
           <canvas id="homeChart" width="200" height="200"></canvas>
           <div id="homeChartCenterGrade" class="centerGrade"></div>

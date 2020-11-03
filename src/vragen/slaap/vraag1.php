@@ -9,7 +9,7 @@
   <div>
     <input id="sleepHours" type="number">
       <div class="emojicontainer">
-        <div id="sleepState0" onclick="setSleepState(0)" class="sleepButton selected">
+        <div id="sleepState0" onclick="setSleepState(0)" class="sleepButton">
           <i class="far fa-smile" style="color: green;"> </i>
         </div>
         <div id="sleepState1" onclick="setSleepState(1)" class="sleepButton">

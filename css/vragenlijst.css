@@ -93,6 +93,11 @@
     display: inline-flex;
 }
 
+.emojicontainer i:hover{
+    background-color: #7CC97C;
+    border-radius: 25px;
+}
+
 .sleepButton {
     padding: 0 15px 0 15px;
     font-size: 30px;
