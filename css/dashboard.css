@@ -48,7 +48,7 @@
   color: white;
   padding: 5px 20px;
   border-radius: 20px;
-  background-color: #FF7474;
+  background-color: #ff7474;
 }
 
 .colors {
@@ -92,9 +92,9 @@
   margin-right: 5px;
 }
 
-.Button_question_del button{
+.Button_question_del button {
   border: none;
-  background-color: #FF7474;
+  background-color: #ff7474;
   opacity: 0.8;
   color: white;
   padding: 5px 20px;
@@ -102,23 +102,24 @@
   margin-top: 10px;
 }
 
-.button_anu, .Button_question_del{
+.button_anu,
+.Button_question_del {
   display: flex;
   flex-direction: column;
   width: 180px;
   margin-left: 11rem;
 }
 
-.Button_question_del button:hover{
-  background-color: #ED5E5E;
+.Button_question_del button:hover {
+  background-color: #ed5e5e;
 }
 
-.button_anu a{
-  color:white;
+.button_anu a {
+  color: white;
 }
 
-.button_anu{
-  background-color: #83E683;
+.button_anu {
+  background-color: #83e683;
   opacity: 0.8;
   text-align: center;
   color: white;
@@ -128,47 +129,52 @@
   margin-top: 10px;
 }
 
-.active{
-  border-bottom: 3px solid #83E683;
+.active {
+  border-bottom: 3px solid #83e683;
 }
 
-.button_anu:hover{
-  background-color: #7CC97C;
+.button_anu:hover {
+  background-color: #7cc97c;
 }
 
-.con_del{
+.con_del {
   text-align: center;
   font-size: 15px;
-
 }
 
-.removeAccount_del{
+.removeAccount_del {
   font-size: 25px;
 }
 
-.removeAccount button:hover{
-  background-color: #ED5E5E;
+.removeAccount button:hover {
+  background-color: #ed5e5e;
 }
 
-.popup{
+.popup {
   position: relative;
-  width:12rem; 
-  height:12rem;
-  background: #E5E4E0;
+  width: 12rem;
+  height: 12rem;
+  background: #e5e4e0;
   border: 1px solid;
   margin-left: 0.5rem;
   padding-top: 0.5rem;
+  display: none;
 }
 
-.vergetenHeader{
-color: #7ED67E;
-margin-left: 0.5rem;
+.popopOpend {
+  display: flex;
+  flex-direction: column;
 }
 
-.vergetenText{
-color: #000000;
-margin-left: 0.5rem;
-padding-top: 0.2rem;
+.vergetenHeader {
+  color: #7ed67e;
+  margin-left: 0.5rem;
+}
+
+.vergetenText {
+  color: #000000;
+  margin-left: 0.5rem;
+  padding-top: 0.2rem;
 }
 
 .vergetenText a {
@@ -176,13 +182,10 @@ padding-top: 0.2rem;
   color: #7ed67e;
 }
 
-.exitButton{
+.exitButton {
   padding: 0.3rem 0.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   padding-left: 0.5rem;
 }
-
-
-

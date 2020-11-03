@@ -34,32 +34,23 @@
       $connection = (new DB)->connect();
     
 
-      $stm = $connection->prepare("SELECT * FROM `results` WHERE id = 'user_id'");
+      $stm = $connection->prepare("SELECT * FROM `results` WHERE user_id = :id ORDER BY id DESC LIMIT 1");
   
+
       $stm->execute([
-          'user_id' => $_SESSION['userId'],
+          'id' => $_SESSION['userId'],
       ]);
+
   
-      $result = $stm->fetchAll();
+      $result = $stm->fetch();
 
       $lastDate = $result['created_at'];
 
-      $currentDate = date("y/m/d");
-  
-      if($lastDate < $currentDate){
-          echo json_encode([
-              $currentDate,
-              $lastDate,
-              'type' => 'true'
-              ]);
+      echo json_encode([
+        'lastDate' => $lastDate
+      ]);
           
-      }else{
-          echo json_encode([
-              $currentDate,
-              $lastDate,
-              'type' => 'false'
-              ]);
-      }
+
   
       $connection = null;
     }

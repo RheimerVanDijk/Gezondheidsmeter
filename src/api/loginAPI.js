@@ -56,9 +56,18 @@ async function checkForgotten() {
     })
     .then((data) => {
       console.log(data);
-      // if (data.type == "true") {
-      // } else {
-      // }
+      let lastDate = new Date(data.lastDate).toLocaleDateString();
+      let dateTodat = new Date().toLocaleDateString();
+
+      let diff = new Date(dateTodat).getTime() - new Date(lastDate).getTime();
+
+      let diffDay = diff / (1000 * 3600 * 24);
+
+      if (diffDay == 0) {
+        // no lost days
+      } else {
+        openPopup(diffDay);
+      }
     })
     .catch((error) => {
       console.log(error);
