@@ -47,7 +47,7 @@ CREATE TABLE `gezondheidsmeter`.`Results` (
   `user_id` int(11) unsigned NOT NULL,
   `question_id` int(11) unsigned NOT NULL,
   `awnser_id` int(11) unsigned NOT NULL,
-  `created_at` date NULL DEFAULT current_date(),
+  `created_at` timestamp NULL DEFAULT current_date(),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

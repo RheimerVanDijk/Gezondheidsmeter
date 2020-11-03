@@ -88,3 +88,24 @@
     box-sizing: border-box;
 }
 
+.emojicontainer {
+    width: 100%;
+    display: inline-flex;
+}
+
+.sleepButton {
+    padding: 0 15px 0 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.sleepButton i {
+    margin-top: 15px;
+}
+
+.selected {
+    background-color: rgba(131, 230, 131, 0.7);
+}
+
