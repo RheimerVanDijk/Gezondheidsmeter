@@ -39,14 +39,7 @@
   </nav>
 
   <div class="content dashbaordPage">
-    <div class="popup" id="popup">
-      <span>
-        <button class="exitPopupButton" id="exitPopupButton">X</button>
-      </span>
-      <h3 class="vergetenHeader"></h3>
-      <p class="vergetenText"></p>
-      <a href="vragenlijst.php">Vul in!</a>
-    </div>
+
     <img class="background" src="src/images/background_image.jpg" alt="">
     <div class="container container-left ">
       <div class="header">
@@ -165,6 +158,14 @@
       <div class="removeAccount">
         <a href="verwijderAccount.php"><button>Account verwijderen</button></a>
       </div>
+    </div>
+    <div class="popup" id="popup">
+      <span>
+        <button class="exitPopupButton" id="exitPopupButton">X</button>
+      </span>
+      <h3 class="vergetenHeader"></h3>
+      <p class="vergetenText"></p>
+      <a href="vragenlijst.php">Vul in!</a>
     </div>
   </div>
 <?php

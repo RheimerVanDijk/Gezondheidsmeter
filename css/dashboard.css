@@ -151,14 +151,15 @@
 }
 
 .popup {
-  position: relative;
-  width: 12rem;
-  height: 12rem;
+  position: fixed;
   background: #e5e4e0;
   border: 1px solid;
-  margin-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding: 20px;
   display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
 }
 
 .popopOpend {
@@ -168,18 +169,17 @@
 
 .vergetenHeader {
   color: #7ed67e;
-  margin-left: 0.5rem;
 }
 
 .vergetenText {
   color: #000000;
-  margin-left: 0.5rem;
   padding-top: 0.2rem;
 }
 
-.vergetenText a {
+.popup a {
   text-decoration: underline;
   color: #7ed67e;
+  margin-top: 15px;
 }
 
 .exitButton {
