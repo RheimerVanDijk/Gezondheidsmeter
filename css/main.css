@@ -67,6 +67,7 @@ a {
     background-size: cover; /* Resize the background image to cover the entire container */
     background-blend-mode: lighten;
     background-color: rgba(229, 228, 224, 0.726);
+    height: 100px;
   }
 
   .background-image {
@@ -81,7 +82,9 @@ a {
     display: none;
   }
 
-
+  .Button_question_save button {
+    margin-left: 5px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -101,6 +104,17 @@ a {
   .text-box-home {
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  .Border-vraag {
+    width: 80vw;
+    background-color: rgba(229, 228, 224, 0.726);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Border-vraag input{
+    width: 100%;
   }
 }
 
