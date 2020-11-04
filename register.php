@@ -19,7 +19,7 @@
           <div class="title">
             <p>Registreren bij de gezondheid meter</p>
           </div>
-          <form>
+          <form class="register-form">
             <div class="input-group">
               <label for="registerEmail">E-mailadres:</label>
               <input id="registerEmail" type="email" name="email" placeholder="E-mailadres">
