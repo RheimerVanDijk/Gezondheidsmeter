@@ -24,7 +24,7 @@
         <div class="title">
           <p>Login bij de gezondheid meter</p>
         </div>
-        <form>
+        <form class="login-form">
           <div class="input-group">
             <label for="loginEmail">E-mailadres:</label>
             <input id="loginEmail" type="text" placeholder="E-mailadres" required>
@@ -34,8 +34,12 @@
             <input id="loginPassword" type="password" placeholder="Wachtwoord" required>
           </div>
           <div class="button-container">
-            <button id="loginBtn" type="button" name="login" class="btn">Inloggen</button>
-            <a href="register.php"><button type="button" name="login" class="btn">Registreren</button></a>
+            <div>
+              <button class="login-btn" id="loginBtn" type="button" name="login" class="btn">Inloggen</button>
+            </div>
+            <div>
+              <a class="reg-btn" href="register.php"><button type="button" name="login" class="btn">Registreren</button></a>
+            </div>
           </div>
         </form>
       </div>
